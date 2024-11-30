@@ -27,29 +27,29 @@
     "numberOfPins": 4,
     "instantiation": {
       "kind": "function",
-      "fullyQualifiedName": "OLED12864_I2C.pixel,OLED12864_I2C.showString,OLED12864_I2C.showNumber,OLED12864_I2C.hline,OLED12864_I2C.vline,OLED12864_I2C.rect,OLED12864_I2C.invert,OLED12864_I2C.draw,OLED12864_I2C.clear,OLED12864_I2C.on,OLED12864_I2C.off,OLED12864_I2C.zoom,OLED12864_I2C.init",
+      "fullyQualifiedName": "OLED12864_I2C.init",
       "argumentRoles": [{
                     "pinInstantiationIdx": 0
                 }]
     },
     "pinDefinitions": [
       {
-        "target": "threeVolt",
-        "style": "male",
-        "orientation": "+Y"
-      },
-      {
         "target": "ground",
         "style": "male",
         "orientation": "+Y"
       },
       {
-        "target": "SCL",
+        "target": "P0",
         "style": "male",
         "orientation": "+Y"
       },
       {
-        "target": "SDA",
+        "target": "P1",
+        "style": "male",
+        "orientation": "+Y"
+      },
+      {
+        "target": "threeVolt",
         "style": "male",
         "orientation": "+Y"
       }
